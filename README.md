@@ -20,7 +20,12 @@ This script fully automates the deployment of **n8n** on an **Ubuntu server** wi
 
 1️⃣ **Download the setup script**  
 ```bash
-curl -O https://your-server.com/setup-n8n.sh
+git clone https://github.com/ddm21/n8n-install-script.git
+```
+
+1️⃣ **Change directory**  
+```bash
+cd n8n-install-script
 ```
 
 2️⃣ **Make it executable**  
