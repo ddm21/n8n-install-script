@@ -65,7 +65,7 @@ version: '3.7'
 
 services:
   n8n:
-    image: n8nio/n8n
+    image: n8nio/n8n:latest
     restart: always
     ports:
       - "5678:5678"
