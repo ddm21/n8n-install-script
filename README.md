@@ -130,6 +130,22 @@ sudo rm /etc/nginx/sites-available/n8n /etc/nginx/sites-enabled/n8n
 sudo systemctl restart nginx
 ```
 
+## Allow SSH for remote access
+sudo ufw allow OpenSSH
+
+## Allow Nginx for HTTP & HTTPS
+sudo ufw allow 'Nginx Full'
+sudo ufw allow 80/tcp  # HTTP
+sudo ufw allow 443/tcp # HTTPS
+
+## Allow n8n default port
+sudo ufw allow 5678/tcp
+
+## Allow rclone port for authentication (used in initial setup)
+sudo ufw allow 53682/tcp 
+
+## Enable UFW
+sudo ufw --force enable
 ---
 
 ## ✅ **Done!**  
