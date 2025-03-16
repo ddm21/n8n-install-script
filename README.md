@@ -152,7 +152,7 @@ sudo ufw allow 53682/tcp
 ```
 
 ## Enable UFW
-``
+```
 sudo ufw --force enable
 ```
 ---
