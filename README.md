@@ -18,27 +18,32 @@ This script fully automates the deployment of **n8n** on an **Ubuntu server** wi
 
 ## 🔧 **Installation Steps**  
 
-1️⃣ **Download the setup script**  
+1️⃣ ### Make sure you have sudo privilege
+```
+sudo -s
+```
+
+2️⃣ **Download the setup script**  
 ```bash
 git clone https://github.com/ddm21/n8n-install-script.git
 ```
 
-1️⃣ **Change directory**  
+3️⃣ **Change directory**  
 ```bash
 cd n8n-install-script
 ```
 
-2️⃣ **Make it executable**  
+4️⃣ **Make it executable**  
 ```bash
 chmod +x setup-n8n.sh
 ```
 
-3️⃣ **Run the script**  
+5️⃣ **Run the script**  
 ```bash
 ./setup-n8n.sh
 ```
 
-4️⃣ **Follow the prompts** to enter:  
+6️⃣ **Follow the prompts** to enter:  
    - Your **n8n domain (subdomain)**
    - Your **email** for SSL  
    - **PostgreSQL password**  
